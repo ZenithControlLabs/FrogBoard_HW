@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "FrogBoard")(type "KiCad")(uri "${KIPRJMOD}/FrogBoard.kicad_sym")(options "")(descr ""))
+)
