@@ -267,6 +267,18 @@
 			)
 		)
 	)
+	(pad "" smd rect
+		(at -3.039993 1.15)
+		(size 0.3 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "04c84abe-60c9-48c8-978f-bc711ace8399")
+	)
+	(pad "" smd rect
+		(at 3.039994 1.15)
+		(size 0.3 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2be47fb8-633f-4b02-ab0e-0dd339deb087")
+	)
 	(pad "1" smd rect
 		(at -2.249993 -1.5)
 		(size 0.3 0.7)
@@ -327,28 +339,16 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "cad96561-4e0d-4ad6-8203-fcbb65e72046")
 	)
-	(pad "P1" smd rect
-		(at -3.039993 1.15)
-		(size 0.3 1)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "04c84abe-60c9-48c8-978f-bc711ace8399")
-	)
-	(pad "P2" smd rect
-		(at 3.039994 1.15)
-		(size 0.3 1)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "2be47fb8-633f-4b02-ab0e-0dd339deb087")
-	)
 	(embedded_fonts no)
-	(model ":KICAD7_3DMODEL_DIR:Connector_FFC-FPC.3dshapes/Molex_502250-1791_2Rows-17Pins-1MP_P0.60mm_Horizontal.step"
+	(model "${KIPRJMOD}/FrogBoard_3Dmodels/5034801000.stp"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 -1.9 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 90)
+			(xyz -90 -0 -0)
 		)
 	)
 )

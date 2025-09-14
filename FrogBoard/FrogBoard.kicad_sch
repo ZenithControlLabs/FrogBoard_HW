@@ -3997,7 +3997,7 @@
 	)
 	(rectangle
 		(start 182.245 65.786)
-		(end 231.267 91.44)
+		(end 231.267 97.79)
 		(stroke
 			(width 0)
 			(type default)
@@ -4736,7 +4736,7 @@
 		)
 	)
 	(global_label "SCL"
-		(shape bidirectional)
+		(shape output)
 		(at 30.48 113.03 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4747,7 +4747,7 @@
 		)
 		(uuid "1892881e-2c14-4629-812a-037f134c9ea0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.0841 113.03 0)
+			(at 36.9728 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4824,7 +4824,7 @@
 		)
 	)
 	(global_label "S_SDA"
-		(shape bidirectional)
+		(shape passive)
 		(at 142.24 81.28 270)
 		(fields_autoplaced yes)
 		(effects
@@ -4835,7 +4835,7 @@
 		)
 		(uuid "6afa46b9-d384-4aed-9c24-a1c008e8e89d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.24 91.1217 90)
+			(at 142.24 88.8991 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5066,7 +5066,7 @@
 		)
 	)
 	(global_label "S_SCL"
-		(shape bidirectional)
+		(shape passive)
 		(at 153.67 81.28 270)
 		(fields_autoplaced yes)
 		(effects
@@ -5077,7 +5077,7 @@
 		)
 		(uuid "f5ad57d5-e6a4-4fb4-a575-10a3e6f04738")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.67 91.0612 90)
+			(at 153.67 88.8386 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5106,6 +5106,74 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 57.15 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03fbfbc9-be03-461b-8176-3ad3f46db336")
+		(property "Reference" "C8"
+			(at 57.15 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 57.15 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 60.96 39.6748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 57.15 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ae4c34a-9692-4ebb-812d-24f4deea585b")
+		)
+		(pin "2"
+			(uuid "a4f826c5-5bdc-43a1-9ecb-fecbbf95c527")
+		)
+		(instances
+			(project "FrogBoard"
+				(path "/70a1c624-543f-486d-b6f1-90effc8a6c8b"
+					(reference "C8")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -5977,7 +6045,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FrogBoard_footprints:CONN_528070410_MOL"
 			(at 49.53 115.57 0)
 			(effects
 				(font
@@ -7593,6 +7661,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 53.34 40.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fe976bc-3e1b-485a-b56c-704e3e49f83f")
+		(property "Reference" "#PWR028"
+			(at 46.99 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 40.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 53.34 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08906cba-3b99-48ee-acab-e9a8b31efa94")
+		)
+		(instances
+			(project "FrogBoard"
+				(path "/70a1c624-543f-486d-b6f1-90effc8a6c8b"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 88.9 30.48 180)
 		(unit 1)
@@ -8018,7 +8153,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_Micro-B_Amphenol_10118193-0001LF_Horizontal"
+		(property "Footprint" "FrogBoard_footprints:AMPHENOL_10118194-0001LF"
 			(at 116.84 113.03 0)
 			(effects
 				(font
@@ -9498,73 +9633,6 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 60.96 40.64 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e8b5b8fd-0e05-4d8b-866d-c5d8d0d66f60")
-		(property "Reference" "#PWR028"
-			(at 64.77 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 57.15 40.6399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 60.96 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2cfa12ee-6a9d-490b-ab5b-5cd8a562fd4e")
-		)
-		(instances
-			(project "FrogBoard"
-				(path "/70a1c624-543f-486d-b6f1-90effc8a6c8b"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
 		(at 39.37 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9698,6 +9766,78 @@
 			(project "FrogBoard"
 				(path "/70a1c624-543f-486d-b6f1-90effc8a6c8b"
 					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 186.69 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb5298c5-bff9-45ce-916e-3ab9daa437cd")
+		(property "Reference" "H7"
+			(at 189.865 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 189.865 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.5mm"
+			(at 186.69 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" ""
+			(at 186.69 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "FrogBoard"
+				(path "/70a1c624-543f-486d-b6f1-90effc8a6c8b"
+					(reference "H7")
 					(unit 1)
 				)
 			)
