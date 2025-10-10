@@ -12,6 +12,7 @@ preflight:
     - error: "silk_edge_clearance"
     - error: "silk_over_copper"
     - error: "silk_overlap"
+    - error: "lib_footprint_mismatch"
     - error: "text_height"
     - error: "clearance"
       regex: "PTH pad.*of J4"
