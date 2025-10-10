@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "FrogBoard")
-		(rev "2.0")
+		(rev "v1.0.0-rc1")
 	)
 	(lib_symbols
 		(symbol "BL1555_1"
@@ -8379,7 +8379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C1591.pdf"
 			(at 107.95 26.67 0)
 			(effects
 				(font
@@ -8390,6 +8390,24 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 107.95 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1591"
+			(at 107.95 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B104KB8NNNC"
+			(at 107.95 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8449,7 +8467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C14675.pdf"
 			(at 49.53 49.53 0)
 			(effects
 				(font
@@ -8459,6 +8477,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 49.53 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14675"
+			(at 49.53 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-07100KL"
 			(at 49.53 49.53 0)
 			(effects
 				(font
@@ -8765,7 +8801,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b28a993-a0f3-4167-bdfa-4b7eef973eae")
 		(property "Reference" "J6"
@@ -9136,7 +9172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL21B105KBFNNNE_C28323.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C28323.pdf"
 			(at 190.5 36.83 0)
 			(effects
 				(font
@@ -9430,7 +9466,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2004211032_RESI-PTFR0402B1K00P9_C478866.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C14675.pdf"
 			(at 176.53 109.22 0)
 			(effects
 				(font
@@ -9457,7 +9493,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C478866"
+		(property "LCSC" "C14675"
 			(at 176.53 109.22 0)
 			(effects
 				(font
@@ -9466,7 +9502,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PTFR0402B1K00P9"
+		(property "MPN" "RC0603FR-07100KL"
 			(at 176.53 109.22 0)
 			(effects
 				(font
@@ -9601,6 +9637,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 49.53 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3170036"
+			(at 49.53 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "528070410"
 			(at 49.53 115.57 0)
 			(effects
 				(font
@@ -10207,7 +10261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2004211032_RESI-PTFR0402B1K00P9_C478866.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22548.pdf"
 			(at 142.24 77.47 0)
 			(effects
 				(font
@@ -10234,7 +10288,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C478866"
+		(property "LCSC" "C22548"
 			(at 142.24 77.47 0)
 			(effects
 				(font
@@ -10243,7 +10297,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PTFR0402B1K00P9"
+		(property "MPN" "RC0603FR-071KL"
 			(at 142.24 77.47 0)
 			(effects
 				(font
@@ -10490,7 +10544,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "FrogBoard_footprints:SOT-23"
 			(at 180.34 27.305 0)
 			(effects
 				(font
@@ -10597,7 +10651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C127355.pdf"
 			(at 25.4 123.19 0)
 			(effects
 				(font
@@ -10607,6 +10661,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 25.4 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C127355"
+			(at 25.4 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "5034801000"
 			(at 25.4 123.19 0)
 			(effects
 				(font
@@ -11225,7 +11297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C1591.pdf"
 			(at 41.91 26.67 0)
 			(effects
 				(font
@@ -11235,6 +11307,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 41.91 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1591"
+			(at 41.91 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B104KB8NNNC"
 			(at 41.91 26.67 0)
 			(effects
 				(font
@@ -11899,7 +11989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C132563.pdf"
 			(at 116.84 113.03 0)
 			(effects
 				(font
@@ -11909,6 +11999,24 @@
 			)
 		)
 		(property "Description" "USB Micro Type B connector"
+			(at 120.65 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C132563"
+			(at 120.65 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "10118194-0001LF"
 			(at 120.65 114.3 0)
 			(effects
 				(font
@@ -11980,7 +12088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C1591.pdf"
 			(at 63.5 26.67 0)
 			(effects
 				(font
@@ -11990,6 +12098,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 63.5 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1591"
+			(at 63.5 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B104KB8NNNC"
 			(at 63.5 26.67 0)
 			(effects
 				(font
@@ -12050,7 +12176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C1591.pdf"
 			(at 82.55 26.67 0)
 			(effects
 				(font
@@ -12060,6 +12186,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 82.55 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1591"
+			(at 82.55 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B104KB8NNNC"
 			(at 82.55 26.67 0)
 			(effects
 				(font
@@ -12109,7 +12253,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:MSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "FrogBoard_footprints:MSOP-10_3x3mm_P0.5mm"
 			(at 158.75 138.43 0)
 			(effects
 				(font
@@ -12131,6 +12275,24 @@
 		)
 		(property "Description" "Ultra Low ON-Resistance, Low Voltage, Dual, SPDT Analog Switch"
 			(at 151.892 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2826598"
+			(at 157.48 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BL1555MM"
+			(at 157.48 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12206,7 +12368,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:MSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "FrogBoard_footprints:MSOP-10_3x3mm_P0.5mm"
 			(at 201.93 139.7 0)
 			(effects
 				(font
@@ -12228,6 +12390,24 @@
 		)
 		(property "Description" "Ultra Low ON-Resistance, Low Voltage, Dual, SPDT Analog Switch"
 			(at 195.072 136.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2826598"
+			(at 200.66 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BL1555MM"
+			(at 200.66 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12413,7 +12593,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9740da55-cdce-4ae8-abf0-0fafc863dc2a")
 		(property "Reference" "J7"
@@ -12503,7 +12683,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:MSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "FrogBoard_footprints:MSOP-10_3x3mm_P0.5mm"
 			(at 181.61 138.43 0)
 			(effects
 				(font
@@ -12525,6 +12705,24 @@
 		)
 		(property "Description" "Ultra Low ON-Resistance, Low Voltage, Dual, SPDT Analog Switch"
 			(at 174.752 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2826598"
+			(at 180.34 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BL1555MM"
+			(at 180.34 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12824,7 +13022,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
+		(property "Footprint" "FrogBoard_footprints:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
 			(at 63.5 83.82 0)
 			(effects
 				(font
@@ -12844,6 +13042,24 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 128KB flash, 64KB RAM, 80 MHz, 1.71-3.6V, 26 GPIO, UFQFPN32"
+			(at 73.66 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2928224"
+			(at 73.66 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "STM32L432KBU6TR"
 			(at 73.66 60.96 0)
 			(effects
 				(font
@@ -13069,7 +13285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C1591.pdf"
 			(at 19.05 26.67 0)
 			(effects
 				(font
@@ -13079,6 +13295,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 19.05 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1591"
+			(at 19.05 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B104KB8NNNC"
 			(at 19.05 26.67 0)
 			(effects
 				(font
@@ -13138,7 +13372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL21B105KBFNNNE_C28323.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C28323.pdf"
 			(at 170.18 36.83 0)
 			(effects
 				(font
@@ -13396,7 +13630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2004211032_RESI-PTFR0402B1K00P9_C478866.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22548.pdf"
 			(at 153.67 77.47 0)
 			(effects
 				(font
@@ -13423,7 +13657,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C478866"
+		(property "LCSC" "C22548"
 			(at 153.67 77.47 0)
 			(effects
 				(font
@@ -13432,7 +13666,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PTFR0402B1K00P9"
+		(property "MPN" "RC0603FR-071KL"
 			(at 153.67 77.47 0)
 			(effects
 				(font
@@ -13559,7 +13793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C1591.pdf"
 			(at 54.61 26.67 0)
 			(effects
 				(font
@@ -13569,6 +13803,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 54.61 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1591"
+			(at 54.61 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B104KB8NNNC"
 			(at 54.61 26.67 0)
 			(effects
 				(font
@@ -13626,7 +13878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C98220.pdf"
 			(at 35.56 45.72 0)
 			(effects
 				(font
@@ -13637,6 +13889,24 @@
 		)
 		(property "Description" "Resistor"
 			(at 35.56 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C98220"
+			(at 35.56 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-0710KL"
+			(at 35.56 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13696,7 +13966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C1591.pdf"
 			(at 29.21 26.67 0)
 			(effects
 				(font
@@ -13706,6 +13976,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 29.21 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1591"
+			(at 29.21 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10B104KB8NNNC"
 			(at 29.21 26.67 0)
 			(effects
 				(font
@@ -13765,7 +14053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2004211032_RESI-PTFR0402B1K00P9_C478866.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C14675.pdf"
 			(at 168.91 109.22 0)
 			(effects
 				(font
@@ -13792,7 +14080,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C478866"
+		(property "LCSC" "C14675"
 			(at 168.91 109.22 0)
 			(effects
 				(font
@@ -13801,7 +14089,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PTFR0402B1K00P9"
+		(property "MPN" "RC0603FR-07100KL"
 			(at 168.91 109.22 0)
 			(effects
 				(font

@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 1.0,
+          "height": 2.5,
+          "width": 1.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|144007500|83231500|c6a502bf-89bf-4da9-91ad-3c385d8125f0|5b632568-720d-47ea-8789-45dbfcde2372",
+          ""
+        ],
+        [
+          "clearance|144007500|95231500|f3d07984-1155-4ebc-ac56-39e4a3242fbe|701e2710-0d31-4e66-bed3-427e59331987",
+          ""
+        ],
+        [
+          "clearance|157757500|83831500|1d8f80a7-fcb0-42af-a2cf-6850f61c696c|4966e929-a1dc-469d-8380-5d80b51a06b5",
+          ""
+        ],
+        [
+          "clearance|157757500|94631500|e11d082a-bdb2-48c8-aeb1-4b3e4611d74b|2b05fefb-737a-4547-bd06-634d00b979c9",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -123,7 +140,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.16,
+        "min_clearance": 0.15,
         "min_connection": 0.16,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -443,7 +460,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -471,7 +488,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -545,6 +562,18 @@
           "show": true
         },
         {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
+        },
+        {
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
@@ -560,7 +589,7 @@
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -573,12 +602,30 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "DIGIKEY",
+          "name": "DIGIKEY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
