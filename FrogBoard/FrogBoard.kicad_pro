@@ -60,15 +60,15 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|126983415|121883414|b32995b3-659a-4d8c-832a-2d0c40bfbec7|159f5e84-6be9-4be2-a68d-faaee01cdba2",
-          ""
-        ],
-        [
-          "clearance|127743555|122643555|159f5e84-6be9-4be2-a68d-faaee01cdba2|260f5fa6-7b2d-4cca-a554-d7acf35dbf7c",
+          "clearance|127376307|121906306|b32995b3-659a-4d8c-832a-2d0c40bfbec7|159f5e84-6be9-4be2-a68d-faaee01cdba2",
           ""
         ],
         [
           "clearance|128027500|113060000|ed8916f8-c46a-4d60-baeb-cb88020097cd|393e7eed-4c5f-4f30-ac0d-fa59d0b5d5df",
+          ""
+        ],
+        [
+          "clearance|128136447|122666447|159f5e84-6be9-4be2-a68d-faaee01cdba2|260f5fa6-7b2d-4cca-a554-d7acf35dbf7c",
           ""
         ],
         [
