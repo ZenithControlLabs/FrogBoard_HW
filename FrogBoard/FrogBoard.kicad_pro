@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.15
         }
       },
       "diff_pair_dimensions": [
@@ -58,76 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "clearance|127376307|121906306|b32995b3-659a-4d8c-832a-2d0c40bfbec7|159f5e84-6be9-4be2-a68d-faaee01cdba2",
-          ""
-        ],
-        [
-          "clearance|128027500|113060000|ed8916f8-c46a-4d60-baeb-cb88020097cd|393e7eed-4c5f-4f30-ac0d-fa59d0b5d5df",
-          ""
-        ],
-        [
-          "clearance|128136447|122666447|159f5e84-6be9-4be2-a68d-faaee01cdba2|260f5fa6-7b2d-4cca-a554-d7acf35dbf7c",
-          ""
-        ],
-        [
-          "clearance|137952500|110470000|1b65549e-c0a5-4a65-b1b4-34ce10e74ebb|a9dddd0a-dfbc-439d-baa4-156366d5216c",
-          ""
-        ],
-        [
-          "clearance|144007500|83231500|c6a502bf-89bf-4da9-91ad-3c385d8125f0|5b632568-720d-47ea-8789-45dbfcde2372",
-          ""
-        ],
-        [
-          "clearance|144007500|95231500|f3d07984-1155-4ebc-ac56-39e4a3242fbe|701e2710-0d31-4e66-bed3-427e59331987",
-          ""
-        ],
-        [
-          "clearance|157757500|83831500|1d8f80a7-fcb0-42af-a2cf-6850f61c696c|4966e929-a1dc-469d-8380-5d80b51a06b5",
-          ""
-        ],
-        [
-          "clearance|157757500|94631500|e11d082a-bdb2-48c8-aeb1-4b3e4611d74b|2b05fefb-737a-4547-bd06-634d00b979c9",
-          ""
-        ],
-        [
-          "clearance|171832500|92757500|79dd69e8-bec9-4766-8a7c-c80de7381373|5f2323e0-974d-44a1-bf17-6e2cd7cef0f0",
-          ""
-        ],
-        [
-          "clearance|172157501|88532500|078b8073-2785-4058-b999-67919db7146e|35fc192a-c068-4706-a1da-b4441aa5c792",
-          ""
-        ],
-        [
-          "clearance|172332501|92757500|5f2323e0-974d-44a1-bf17-6e2cd7cef0f0|7a3203fa-7f35-4c55-a0d9-1ed416e3a549",
-          ""
-        ],
-        [
-          "clearance|172657500|88532500|0c8d1676-33b9-429f-b87b-c1cd5acd877f|078b8073-2785-4058-b999-67919db7146e",
-          ""
-        ],
-        [
-          "clearance|172832500|92757500|7a3203fa-7f35-4c55-a0d9-1ed416e3a549|7a657be0-7f42-4d07-86dc-25320c427ad2",
-          ""
-        ],
-        [
-          "clearance|173157499|88532500|2f0471d8-4379-40ac-b1d5-ef57e5bc21a0|0c8d1676-33b9-429f-b87b-c1cd5acd877f",
-          ""
-        ],
-        [
-          "clearance|173332499|92757500|7a657be0-7f42-4d07-86dc-25320c427ad2|42ba5c9d-20a8-425f-aa14-0862a60d4819",
-          ""
-        ],
-        [
-          "clearance|173657500|88532500|93c85ab9-2c62-43e8-873b-7627c3ae0490|2f0471d8-4379-40ac-b1d5-ef57e5bc21a0",
-          ""
-        ],
-        [
-          "clearance|175630000|93827500|73f75e85-1e2b-4d36-87e9-e05eef612e7d|fae8372c-1780-4834-be7e-d600f964f363",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -192,22 +123,22 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.2,
-        "min_connection": 0.16,
-        "min_copper_edge_clearance": 0.5,
+        "min_clearance": 0.125,
+        "min_connection": 0.05,
+        "min_copper_edge_clearance": 0.01,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_clearance": 0.19,
+        "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.16,
+        "min_through_hole_diameter": 0.2,
+        "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -256,7 +187,9 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.1,
+        0.15
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -288,6 +221,14 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.25
         }
       ],
       "zones_allow_external_fillets": false
