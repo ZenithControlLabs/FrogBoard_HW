@@ -6777,6 +6777,12 @@
 		(uuid "36eb346d-d2f2-4cd6-8be9-0a6ac0695ccc")
 	)
 	(junction
+		(at 50.8 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3bdd9047-a463-44b3-960d-908d9fcafb80")
+	)
+	(junction
 		(at 41.91 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6913,6 +6919,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d13b039e-a15a-4ed7-9bbb-9bb38f4accc9")
+	)
+	(junction
+		(at 48.26 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d667c6a2-7fff-448c-8749-7d0e7daa19ca")
 	)
 	(junction
 		(at 71.12 30.48)
@@ -7364,6 +7376,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 115.57) (xy 50.8 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4abab3b1-e57a-4a7d-ae07-6747b325c9eb")
+	)
+	(wire
+		(pts
 			(xy 217.17 129.54) (xy 226.06 129.54)
 		)
 		(stroke
@@ -7434,7 +7456,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 115.57) (xy 54.61 115.57)
+			(xy 50.8 115.57) (xy 54.61 115.57)
 		)
 		(stroke
 			(width 0)
@@ -7494,7 +7516,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 113.03) (xy 54.61 113.03)
+			(xy 48.26 113.03) (xy 54.61 113.03)
 		)
 		(stroke
 			(width 0)
@@ -7621,6 +7643,16 @@
 			(type default)
 		)
 		(uuid "9426cef1-6b36-474e-a711-cc85e7c874d1")
+	)
+	(wire
+		(pts
+			(xy 44.45 113.03) (xy 48.26 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "995fd06f-4070-4576-a068-3680b907e483")
 	)
 	(wire
 		(pts
@@ -13740,6 +13772,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 50.8 110.49 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "80962804-ac99-4f1f-908f-85f6e879cef1")
+		(property "Reference" "J27"
+			(at 54.61 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 54.61 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "FrogBoard_footprints:FrogBoard_PinHeader_1x01_P1.00mm_Vertical"
+			(at 50.8 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 50.8 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f072d2b-9fd8-44fd-b558-c3c9c8f120b5")
+		)
+		(instances
+			(project "FrogBoard"
+				(path "/70a1c624-543f-486d-b6f1-90effc8a6c8b"
+					(reference "J27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 161.29 73.66 270)
 		(unit 1)
@@ -15613,6 +15712,73 @@
 			(project "FrogBoard"
 				(path "/70a1c624-543f-486d-b6f1-90effc8a6c8b"
 					(reference "J22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 48.26 107.95 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "b0054f8d-0049-4e40-a55c-aaf1d56ea8db")
+		(property "Reference" "J28"
+			(at 52.07 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 52.07 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "FrogBoard_footprints:FrogBoard_PinHeader_1x01_P1.00mm_Vertical"
+			(at 48.26 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 48.26 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3877f25e-9d77-489f-a336-4d3a8daafa00")
+		)
+		(instances
+			(project "FrogBoard"
+				(path "/70a1c624-543f-486d-b6f1-90effc8a6c8b"
+					(reference "J28")
 					(unit 1)
 				)
 			)
