@@ -2263,10 +2263,28 @@
 			)
 		)
 		(symbol "Stickbox_1_1"
+			(pin free non_logic
+				(at -8.89 3.81 0)
+				(length 2.54)
+				(name "LEGS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin output line
 				(at -8.89 0 0)
 				(length 2.54)
-				(name "BTN"
+				(name "BTN_P"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2274,6 +2292,24 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -8.89 -3.81 0)
+				(length 2.54)
+				(name "BTN_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
