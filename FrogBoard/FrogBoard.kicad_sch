@@ -4367,7 +4367,61 @@
 			)
 			(symbol "Stickbox_1_1"
 				(pin free non_logic
+					(at -8.89 6.35 0)
+					(length 2.54)
+					(name "LEGS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin free non_logic
+					(at -8.89 5.08 0)
+					(length 2.54)
+					(name "LEGS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin free non_logic
 					(at -8.89 3.81 0)
+					(length 2.54)
+					(name "LEGS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin free non_logic
+					(at -8.89 2.54 0)
 					(length 2.54)
 					(name "LEGS"
 						(effects
@@ -7015,6 +7069,10 @@
 		(uuid "75d9b68e-9d3e-47f6-821b-dc39fd22e4cc")
 	)
 	(no_connect
+		(at 29.21 166.37)
+		(uuid "8df0d2a9-5871-41a9-9b6f-72727175965e")
+	)
+	(no_connect
 		(at 60.96 50.8)
 		(uuid "913955f8-8897-41e0-94e6-caae111c69bd")
 	)
@@ -7029,6 +7087,14 @@
 	(no_connect
 		(at 86.36 66.04)
 		(uuid "b317ea42-8b29-463f-ab3b-c2e069c997ec")
+	)
+	(no_connect
+		(at 29.21 168.91)
+		(uuid "c4e94c3d-f148-4bd9-b95c-6d7616ab63de")
+	)
+	(no_connect
+		(at 29.21 165.1)
+		(uuid "cbe66dfc-07d7-49b7-b012-9024144f9437")
 	)
 	(no_connect
 		(at 86.36 45.72)
@@ -17572,6 +17638,15 @@
 		)
 		(pin "7"
 			(uuid "30c9fee9-7577-4a49-b0f2-a606f905eb0b")
+		)
+		(pin "9"
+			(uuid "c1c147bc-f5ca-4c41-8aa0-230f8cf083cf")
+		)
+		(pin "10"
+			(uuid "c6b187d3-88b5-42dc-bc0f-c20288a0bea3")
+		)
+		(pin "8"
+			(uuid "c750f655-6f86-4a8c-ba94-d80394755da5")
 		)
 		(instances
 			(project ""

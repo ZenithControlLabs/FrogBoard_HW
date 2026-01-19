@@ -2264,7 +2264,61 @@
 		)
 		(symbol "Stickbox_1_1"
 			(pin free non_logic
+				(at -8.89 6.35 0)
+				(length 2.54)
+				(name "LEGS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin free non_logic
+				(at -8.89 5.08 0)
+				(length 2.54)
+				(name "LEGS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin free non_logic
 				(at -8.89 3.81 0)
+				(length 2.54)
+				(name "LEGS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin free non_logic
+				(at -8.89 2.54 0)
 				(length 2.54)
 				(name "LEGS"
 					(effects
