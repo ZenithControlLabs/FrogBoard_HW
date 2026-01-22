@@ -2353,7 +2353,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at -8.89 -3.81 0)
 				(length 2.54)
 				(name "BTN_N"

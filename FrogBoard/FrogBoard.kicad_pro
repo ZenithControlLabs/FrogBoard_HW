@@ -58,12 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "solder_mask_bridge|-127988|-5181969|fcb5ca47-5a29-49c2-b93c-969b957ae259|49e40906-5abd-44ed-b818-59f7bb4b9a8d",
-          "This is a doodle, the un-named nets don't matter one way or the other"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -617,6 +612,12 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
           "show": false
         }
       ],
