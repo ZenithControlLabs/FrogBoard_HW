@@ -94,26 +94,6 @@
 		(uuid "1584fde3-abe6-407a-82af-5664d8693f80")
 	)
 	(fp_line
-		(start 1.397 -13.903)
-		(end 1.397 -11.243)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "af22eb8a-32d3-44f8-87cb-ecae5b289135")
-	)
-	(fp_line
-		(start 1.397 -11.243)
-		(end -3.743 -11.243)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "95fe9247-bdd7-4a31-ac68-d057d6505b95")
-	)
-	(fp_line
 		(start 2.667 -13.903)
 		(end 3.997 -13.903)
 		(stroke
@@ -194,16 +174,6 @@
 		(uuid "0ac288db-acb9-460b-865e-b86c1733e2cb")
 	)
 	(fp_line
-		(start 11.243 1.397)
-		(end 11.243 -3.743)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "1bb5dddb-b1b8-4393-b69b-fb06945e320b")
-	)
-	(fp_line
 		(start 13.903 -3.743)
 		(end 11.243 -3.743)
 		(stroke
@@ -212,16 +182,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "f30b234e-47b8-41ef-b12c-3abe888e2ff5")
-	)
-	(fp_line
-		(start 13.903 1.397)
-		(end 11.243 1.397)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "ff5628b1-9ec9-4de9-bad8-5a54ef3447cf")
 	)
 	(fp_line
 		(start 13.903 1.397)
@@ -461,19 +421,6 @@
 		(thermal_gap 0.2)
 		(uuid "766b25b3-30e3-4247-bdbb-070d1e280b7a")
 	)
-	(pad "7" thru_hole circle
-		(at -7.1 -5)
-		(size 0.4 0.4)
-		(drill 0.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0)
-		(solder_paste_margin 0)
-		(clearance 0)
-		(zone_connect 1)
-		(thermal_gap 0.4)
-		(uuid "eee00563-cd55-49fd-8d8e-4200ea0fc987")
-	)
 	(pad "7" thru_hole oval
 		(at -6 -5)
 		(size 2.2 3)
@@ -495,19 +442,6 @@
 		(zone_connect 1)
 		(thermal_gap 0.4)
 		(uuid "40ef8104-f397-4a50-8b1c-d0a07d36fa9c")
-	)
-	(pad "8" thru_hole circle
-		(at 7.1 -5)
-		(size 0.4 0.4)
-		(drill 0.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0)
-		(solder_paste_margin 0)
-		(clearance 0)
-		(zone_connect 1)
-		(thermal_gap 0.4)
-		(uuid "1ecbe36c-fa12-415e-8011-5d0ee75c0e04")
 	)
 	(pad "8" thru_hole oval
 		(at 7.75 -6.65 90)
@@ -531,19 +465,6 @@
 		(thermal_gap 0.4)
 		(uuid "32741352-1790-41ff-9061-7374c9e656c3")
 	)
-	(pad "9" thru_hole circle
-		(at 7.1 5)
-		(size 0.4 0.4)
-		(drill 0.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(solder_mask_margin 0)
-		(solder_paste_margin 0)
-		(clearance 0)
-		(zone_connect 1)
-		(thermal_gap 0.4)
-		(uuid "74df7f1d-1fb3-4af1-a1a3-1dab402badf2")
-	)
 	(pad "9" thru_hole oval
 		(at 7.75 6.65 90)
 		(size 4 2.7)
@@ -565,16 +486,6 @@
 		(zone_connect 0)
 		(thermal_gap 0.2)
 		(uuid "a6cddda4-2846-4483-8fdc-f794273f9173")
-	)
-	(pad "10" thru_hole circle
-		(at -7.1 5)
-		(size 0.4 0.4)
-		(drill 0.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(zone_connect 1)
-		(thermal_gap 0.4)
-		(uuid "3992feb8-5568-4467-8a7f-d315125c1218")
 	)
 	(pad "10" thru_hole oval
 		(at -6 5)
