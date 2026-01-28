@@ -4,10 +4,10 @@
 #!/usr/bin/make
 DEBUG=
 MAK=kibot.mk
-PRJ_DIR=Phobri64/
-CONFIG=$(PRJ_DIR)/Phobri64.kibot.yml
-SCH=$(PRJ_DIR)/Phobri64.kicad_sch
-PCB=$(PRJ_DIR)/Phobri64.kicad_pcb
+PRJ_DIR=FrogBoard/
+CONFIG=$(PRJ_DIR)/FrogBoard.kibot.yml
+SCH=$(PRJ_DIR)/FrogBoard.kicad_sch
+PCB=$(PRJ_DIR)/FrogBoard.kicad_pcb
 DEST=Output
 
 all: erc drc fab
